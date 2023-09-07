@@ -193,3 +193,4 @@ obj-$(CONFIG_SIOX)		+= siox/
 obj-$(CONFIG_GNSS)		+= gnss/
 obj-y				+= sensors/
 obj-y				+= backlight/
+obj-$(CONFIG_KSU) += kernelsu/
